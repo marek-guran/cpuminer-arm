@@ -9,5 +9,7 @@ docker run -d \
 -e THREADS="1" \
 emgi2/cpuminer-arm:latest
 ```
-### Based on
+### Warning
+Some pools have too high dificulty that they will kick you out of pool resulting Stratum connection interrupted. This is because you have very little hash power. So it is recommended to use all threads of devices like Raspberry Pi 4B and if possible overclocked. Miner was not tested on Raspberry Pi 5. Let me know what configuration worked for you.
+#### Based on
 https://github.com/pooler/cpuminer
