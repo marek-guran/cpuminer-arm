@@ -29,6 +29,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y libjansson4 wget &
 If you dont specify -t, it will use all CPU threads and if it wont start, try running it with sudo. You can start it later by clicking sessions section in app.
 #### Tested devices and their configurations (Based on your feedback)
 1. Xiaomi Redmi Note 9 Pro - 17 KH/s - threads 7 (8 crashes miner) - no modifications
-2. Raspberry Pi 4B - 8 KH/s - all threads - no overclock
+2. Xiaomi Mi A2 - 14 KH/s - all threads - running rooted ArrowOS custom rom
+3. Raspberry Pi 4B - 8 KH/s - all threads - no overclock
 ##### Based on
 https://github.com/pooler/cpuminer
