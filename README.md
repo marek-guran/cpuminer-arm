@@ -26,7 +26,9 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y libjansson4 wget &
 ```bash
 ./minerd-arm64 -o stratum+tcp://pepeguild.com:3333 -u email.or-wallet-or-worker_name -p anything -t 1
 ```
-If you dont specify -t, it will use all CPU threads and if it wont start, try running it with sudo. You can start it later by clicking sessions section in app.
+If you dont specify -t, it will use all CPU threads and if it wont start, try running it with sudo. You can start it later by clicking sessions section in app. Please note that mining on devices with batteries can result in damage. 
+
+⚠️ If you use device with battery in it, remove it so you don't start a fire, explosions and something else from batteries in device. You are responsible for these actions.
 #### Tested devices and their configurations (Based on your feedback)
 1. Xiaomi Redmi Note 9 Pro - 17 KH/s - threads 7 (8 crashes miner) - no modifications
 2. Xiaomi Mi A2 - 14 KH/s - all threads - running rooted ArrowOS custom rom
