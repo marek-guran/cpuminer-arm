@@ -15,7 +15,7 @@ Some pools have too high dificulty that they will kick you out of pool resulting
 - Pepecoin or anything that uses scrypt
 - LTC
 - BTC
-### Running on Android
+### Running on Android or natively on Linux
 1. Install: https://play.google.com/store/apps/details?id=tech.ula&hl=en_US
 2. Choose your distro and boot it (recommended debian)
 3. Execute commands:
