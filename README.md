@@ -24,7 +24,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y libjansson4 wget &
 ```
 4. Run it with
 ```bash
-./minerd- -o stratum+tcp://pepeguild.com:3333 -u email.or-wallet-or-worker_name -p anything -t 1
+./minerd-arm64 -o stratum+tcp://pepeguild.com:3333 -u email.or-wallet-or-worker_name -p anything -t 1
 ```
 If you dont specify -t, it will use all CPU threads and if it wont start, try running it with sudo. You can start it later by clicking sessions section in app.
 #### Tested devices and their configurations
