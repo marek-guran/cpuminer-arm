@@ -20,7 +20,7 @@ Some pools have too high dificulty that they will kick you out of pool resulting
 2. Choose your distro and boot it (recommended debian)
 3. Execute commands:
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt get install -y libjansson4 wget && wget --no-check-certificate https://github.com/marek-guran/cpuminer-arm/releases/download/1.0.1/minerd-arm64 && chmod 777 minerd-arm64
+sudo apt update && sudo apt upgrade -y && sudo apt install -y libjansson4 wget && wget --no-check-certificate https://github.com/marek-guran/cpuminer-arm/releases/download/1.0.1/minerd-arm64 && chmod 777 minerd-arm64
 ```
 4. Run it with
 ```bash
