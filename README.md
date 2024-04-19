@@ -15,6 +15,18 @@ Some pools have too high dificulty that they will kick you out of pool resulting
 - Pepecoin or anything that uses scrypt
 - LTC
 - BTC
+### Running on Android
+1. Install: https://play.google.com/store/apps/details?id=tech.ula&hl=en_US
+2. Choose your distro and boot it (recommended debian)
+3. Execute commands:
+```bash
+sudo apt update && sudo apt upgrade -y && sudo apt get install -y libjansson4 wget && wget --no-check-certificate https://github.com/marek-guran/cpuminer-arm/releases/download/1.0.1/minerd-arm64 && chmod 777 minerd-arm64
+```
+4. Run it with
+```bash
+./minerd- -o stratum+tcp://pepeguild.com:3333 -u email.or-wallet-or-worker_name -p anything -t 1
+```
+If you dont specify -t, it will use all CPU threads and if it wont start, try running it with sudo
 #### Tested devices and their configurations
 TBA - based on your feedback
 ##### Based on
